@@ -132,10 +132,11 @@ body {
 }
 
 .menu li, .footer-item__wrapper ul li {
+    opacity: 1;
     transition: opacity 0.1s ease-in-out;
 }
 
-.menu li, .footer-item__wrapper ul li:hover {
+.menu li:hover, .footer-item__wrapper ul li:hover {
     opacity: 0.6;
 }
 /* ./Header */
